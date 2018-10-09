@@ -18,7 +18,7 @@ before_script:
     - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 script:
     - pip3 install -e .
-    # - tox -e $TOX_ENV
+    - tox -e $TOX_ENV
     - pip3 uninstall -y allalgorithms
 notifications:
     email: false
