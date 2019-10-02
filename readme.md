@@ -75,7 +75,7 @@ print(binary_search(arr, 3))
   - [Palindrome Check](https://python.allalgorithms.com/string/palindrom-check)
 
 - ### Subarray
-  - [Kadane's Algorithm](https://python.allalgorithms.com/subarray/kadane)
+  - [Kadane's Algorithm](https://github.com/kunal768/allalgorithms-python/blob/master/allalgorithms/subarray/kadane.py)
   
 
 # Related
