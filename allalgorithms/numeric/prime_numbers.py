@@ -21,13 +21,8 @@ def sieve(n):
     return prime
 
 def prime_lower(n):
-    """
-    inputs:
-        n: integer
-
-    outputs: list of prime numbers less or equal than n
-    """
-    assert n>=1 and n<=SIEVE_LIMIT, "input value is not valid"
+    if n < 1 or n > SIEVE_LIMIT:
+        return []
     prime = sieve(n)
     ans = []
     for i in range(n+1):
