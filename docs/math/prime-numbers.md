@@ -11,7 +11,7 @@ pip install allalgorithms
 ## Usage
 
 ```py
-from allalgorithms.numeric import prime_lower
+from allalgorithms.math import prime_lower
 
 print(prime_lower(18))
 # -> [2, 3, 5, 7, 11, 13, 17]
