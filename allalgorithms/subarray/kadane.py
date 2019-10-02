@@ -1,7 +1,6 @@
-# Algorithm for Kadane's max sum contigious subarray
 # -*- coding: UTF-8 -*-
 #
-# Merge Sort Algorithm
+# Kadane's Algorithm
 # The All ▲lgorithms library for python
 #
 # Contributed by: Kunal Keshav Singh Sahni 
