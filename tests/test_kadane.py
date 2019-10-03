@@ -1,6 +1,6 @@
 import unittest
 
-from allalgorithms.subarray import kadane
+from allalgorithms.kadane import *
 
 class TestSearches(unittest.TestCase):
 	def test_returnArray(self):
