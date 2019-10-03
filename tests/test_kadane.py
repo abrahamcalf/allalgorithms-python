@@ -11,7 +11,7 @@ class TestSearches(unittest.TestCase):
 		self.assertEqual([-1, [-1]], binary_search([-1]))
 
 	def test_maxsum_subarray(self):
-  	self.assertEqual( 11,, binary_search([2,3,-1,7]))
+        self.assertEqual(11,binary_search([2,3,-1,7]))
 		self.assertEqual(5, binary_search([2,3,-2,4]))
 		self.assertEqual(0, binary_search([-1,-1,-0,0]))
 		self.assertEqual(-1, binary_search([-1]))
