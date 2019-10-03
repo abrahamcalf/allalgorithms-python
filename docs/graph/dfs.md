@@ -11,7 +11,7 @@ pip install allalgorithms
 ## Usage
 
 ```py
-from allalgorithms.graph import dfs
+from allalgorithms.graph import dfs_path
 
 graph = {'A': set(['B', 'C']),
          'B': set(['A', 'D', 'E']),
