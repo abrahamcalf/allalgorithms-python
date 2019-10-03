@@ -1,8 +1,17 @@
+# -*- coding: UTF-8 -*-
+#
+# Nearest neighbour classifier one entry
+# The All ▲lgorithms library for python
+#
+# Contributed by: Carlos Abraham Hernandez
+# Github: @abranhe
+#
+
 from math import sqrt
 
-class KNN():
+class NN():
     """
-    This is my first classifier :)
+    Nearest neighbour classifier for two-dimensional dataset
     """
     def fit(self,data,labels):
         self.data = data
@@ -31,5 +40,4 @@ class KNN():
             if dist < best_distance:
                 best_distance = dist
                 best_index = i
-            print(dist,best_distance, best_index)
         return self.labels[best_index]
