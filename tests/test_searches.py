@@ -5,7 +5,7 @@ from allalgorithms.searches import (
     fibonacci_search,
     dfs
 )
-from graph import Graph
+from allalgorithms.structures import Graph
 
 
 class TestSearches(unittest.TestCase):
@@ -44,7 +44,8 @@ class TestSearches(unittest.TestCase):
             'H': ['G'],
         }
         result = dfs(g, 'A', 'F')
-        self.assertEqual('F', result)
+        path = ['A', 'G', 'H', 'C', 'B', 'D', 'E']
+        self.assertEqual(('F', path), result)
 
 
 if __name__ == '__main__':

@@ -21,7 +21,7 @@ def dfs(graph: Graph, source: str, target: str):
     while visited:
         node = visited.pop()
         if node == target:
-            return target
+            return target, path
         if node in path:
             continue
         path.append(node)
