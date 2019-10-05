@@ -10,6 +10,7 @@ from allalgorithms.sorting import (
     cocktail_shaker_sort,
     tree_sort,
     shell_sort,
+    comb_sort,
 )
 
 
@@ -40,6 +41,10 @@ class TestSorting(unittest.TestCase):
 
     def test_shell_sort(self):
         self.assertEqual([-44, 1, 2, 3, 7, 19], shell_sort([7, 3, 2, 19, -44, 1]))
+
+    def test_comb_sort(self):
+        self.assertEqual([-44, 1, 2, 3, 7, 19], comb_sort([7, 3, 2, 19, -44, 1]))
+
 
 if __name__ == "__main__":
     unittest.main()
