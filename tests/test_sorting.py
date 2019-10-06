@@ -11,6 +11,7 @@ from allalgorithms.sorting import (
     tree_sort,
     heap_sort,
     shell_sort,
+    counting_sort
 )
 
 
@@ -38,6 +39,9 @@ class TestSorting(unittest.TestCase):
 
     def test_tree_sort(self):
         self.assertEqual([-44, 1, 2, 3, 7, 19], tree_sort([7, 3, 2, 19, -44, 1]))
+
+    def test_counting_sort(self):
+        self.assertEqual([-44, 1, 2, 3, 7, 19], counting_sort([7, 3, 2, 19, -44, 1]))
 
     def test_heap_sort(self):
         array = [7, 3, 2, 19, -44, 1]

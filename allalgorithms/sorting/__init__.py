@@ -7,3 +7,4 @@ from .stooge_sort import stooge_sort
 from .cocktail_shaker_sort import cocktail_shaker_sort
 from .tree_sort import tree_sort
 from .heap_sort import heap_sort
+from .counting_sort import counting_sort
