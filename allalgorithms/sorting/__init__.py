@@ -8,3 +8,4 @@ from .cocktail_shaker_sort import cocktail_shaker_sort
 from .tree_sort import tree_sort
 from .shell_sort import shell_sort
 from .comb_sort import comb_sort
+from .heap_sort import heap_sort
