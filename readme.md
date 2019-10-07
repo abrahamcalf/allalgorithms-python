@@ -70,8 +70,13 @@ print(binary_search(arr, 3))
   - [Pigeonhole Sort](https://python.allalgorithms.com/sorting/pigeonhole-sort)
   - [Selection Sort](https://python.allalgorithms.com/sorting/selection-sort)
   - [Stooge Sort](https://python.allalgorithms.com/sorting/stooge-sort)
+  
 - ### String
   - [Palindrome Check](https://python.allalgorithms.com/string/palindrom-check)
+
+- ### Subarray
+  - [Kadane's Algorithm](https://python.allalgorithms.com/subarray/kadane)
+  
 
 # Related
 

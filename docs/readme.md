@@ -69,9 +69,14 @@ print(binary_search(arr, 3))
   - [Merge Sort](https://python.allalgorithms.com/sorting/merge-sort)
   - [Pigeonhole Sort](https://python.allalgorithms.com/sorting/pigeonhole-sort)
   - [Selection Sort](https://python.allalgorithms.com/sorting/selection-sort)
-  - [Stooge Sort](https://python.allalgorithms.com/sorting/stooge-sort)
+  - [Stooge Sort](https://python.allalgorithms.com/sorting/stooge-sor
+  
 - ### String
   - [Palindrome Check](https://python.allalgorithms.com/string/palindrom-check)
+
+- ### Subarray
+  - [Kadane's Algorithm](https://github.com/kunal768/allalgorithms-python/blob/master/allalgorithms/subarray/kadane.py)
+  
 
 # Related
 
